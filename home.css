@@ -1,0 +1,198 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #e0d1cc;
+    overflow-x: hidden;
+}
+
+.home-container{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 120px 8%;
+
+
+    background:  #FAF9F6;
+    margin-bottom: -100px;
+}
+
+
+
+
+.texts{
+    max-width: 550px;
+    margin-top: -200px;
+    z-index: 2;
+}
+
+.home-slogan{
+    color: #d98aa1;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-family: "Playwrite GB S", sans-serif;
+}
+
+.home-title{
+    line-height: 1.1;
+    color: #d86a93;
+    font-family: "Lobster Two", cursive;
+    margin-bottom: 50px;
+    font-size: clamp(2.8rem, 4.8vw, 5rem);
+}
+
+.btn-home{
+    font-family: "Playwrite GB S", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 160, 198);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-home:hover{
+    transform: translateY(-3px);
+    background-color: rgb(245, 130, 176);
+    box-shadow: 0 10px 25px rgba(255, 160, 198, 0.3);
+}
+
+
+
+.image-container{
+    position: relative;
+
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-circle{
+    position: absolute;
+
+    width: 420px;
+    height: 420px;
+
+    background-color: #f7d6df;
+
+    border-radius: 50%;
+    
+    z-index: 1;
+
+}
+
+.home-image-center{
+    width: 100%;
+    max-width: 500px;
+
+    height: auto;
+
+    object-fit: contain;
+
+    position: relative;
+    z-index: 2;
+
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.5));
+    transform: translateY(-20px);
+
+
+     animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(247, 214, 223, 0.5);
+}
+
+.small-circle.one{
+    width: 120px;
+    height: 120px;
+
+    top: 15%;
+    left: 8%;
+}
+
+.small-circle.two{
+    width: 70px;
+    height: 70px;
+
+    bottom: 18%;
+    left: 45%;
+}
+
+.small-circle.three{
+    width: 90px;
+    height: 90px;
+
+    top: 22%;
+    right: 12%;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+    .home-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 60px;
+    }
+
+    .image-container{
+        width: 350px;
+        height: 350px;
+    }
+
+    .pink-circle{
+        width: 300px;
+        height: 300px;
+    }
+
+    .home-title{
+        font-size: 3rem;
+    }
+}
