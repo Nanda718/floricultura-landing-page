@@ -71,6 +71,42 @@
 }
 
 
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(230, 146, 168, 0.66);
+    filter: blur(50px);
+}
+
+.small-circle.four{
+    width: 120px;
+    height: 120px;
+
+    top: 15%;
+    left: 10%;
+}
+
+.small-circle.five{
+    width: 100px;
+    height: 100px;
+
+    bottom: 18%;
+    left: 45%;
+}
+
+.small-circle.six{
+    width: 500px;
+    height: 500px;
+
+    top: 15%;
+    right: 5%;
+    
+}
+
+
+
+
+
 
 @keyframes float{
     0%{
@@ -84,4 +120,120 @@
     100%{
         transform: translateY(0px);
     }
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+}
+
+@media screen and (max-width: 768px){
+
+    #hero-catalogo{
+        padding: 30px;
+        height:calc(100vh -70px);
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .catalogo-texts{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+   
+}
+
+.catalogo-texts p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 250px;
+    line-height: 1.8;
+    color: #504b4b;
+    margin-bottom: 35px;
+}
+
+.catalogo-texts h2{
+    font-size: 70px;
+    color: #f05d96;
+}
+
+
+.imagem{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(2px);
+    opacity: 0.3;
+}
+
+.imagem img{
+    margin-left: 400px;
+    margin-top: 500px;
+    position: absolute;
+    width: 500px;
+    filter: drop-shadow(0 2px 20px rgba(0, 0, 0, 0.432));
+    animation: float 4s ease-in-out infinite;
+
+}
+
+.btn-hero{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: #f390b3;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn-hero:hover{
+    background: #f05d96;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(238, 141, 178, 0.849);
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(243, 161, 183);
+    filter: blur(70px);
+    z-index: 0;
+    left: 170px;
+}
+.small-circle.four{
+    width: 120px;
+    height: 120px;
+
+    top: 15%;
+    left: 10%;
+}
+
+.small-circle.five{
+    width: 100px;
+    height: 100px;
+
+    bottom: 40%;
+    left: 5%;
+}
+
+.small-circle.six{
+    width: 500px;
+    height: 500px;
+
+    top: 15%;
+    right: 5%;
+    
+}
 }

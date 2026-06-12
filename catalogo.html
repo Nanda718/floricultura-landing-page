@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css"> 
     <link rel="stylesheet" href="catalogo.css">
 
     <link rel="stylesheet"
@@ -71,6 +72,11 @@
     </header>
 
     <section id="hero-catalogo">
+
+        <div class="circle small-circle four"></div>
+        <div class="circle small-circle five"></div>
+        <div class="circle small-circle six "></div>
+
         <div class="catalogo-texts" data-aos="fade-right">
             
             <h2>Delicado & Apaixonante</h2>
@@ -85,6 +91,10 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
         </div>
     </section>
 
+    
+
+    <!--SCRIPT AOS!-->
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
 
@@ -94,5 +104,19 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
         });
 
     </script>
+
+    <!--SCRIPT MENU MOBILE-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         const mobileBtn = document.querySelector(".mobile-btn");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+mobileBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+});
+
+    </script>
+
 </body>
 </html>
