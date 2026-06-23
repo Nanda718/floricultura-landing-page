@@ -122,12 +122,13 @@
 }
 
 .filtro-catalogo{
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   
 }
 
 .categorias-catalogo{
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -152,6 +153,7 @@
 .categorias-catalogo button:hover{
     transform: scale(1.08);
     transition: 0.5s;
+    cursor: pointer;
   
 }
 
@@ -178,77 +180,6 @@
 }
 
 
-/*/-----------------------
-          CARDS
-------------------------*/
-
-#cards-catalogo{
-    display: flex;
-    gap: 30px;
-    min-height: 450px;
-    padding: 20px;
-}
-.shop-card{
-    background-color: #ffffff;
-    width: 300px;
-    height: 420px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
-}
-
-.shop-card img{
-    width: 250px;
-}
-
-.card-information{
-    padding: 0;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.card-information h2{
-    font-size: 20px;
-    font-family: 'Poppins';
-    font-weight: 300;
-    color: #787373;
-}
-
-.card-information span{
-    font-size: 20px;
-    font-family: 'Poppins';
-}
-
-.card-information button i{
-    font-size: 30px;
-    color: #ffffff;
-    
-}
-
-.card-information button{
-    background-color: #f05d96;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-.card-information button:hover{
-    transform: scale(1.08);
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-
-
 /*-----------------
     ANIMAÇÕES
 ----------------*/
@@ -265,7 +196,6 @@
         transform: translateY(0px);
     }
 }
-
 
 
 /*RESPONSIVIDADE*/

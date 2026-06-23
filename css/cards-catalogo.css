@@ -1,0 +1,131 @@
+
+
+.shop-card{
+    background-color: #ffffff;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
+}
+
+.shop-card img{
+    width: 250px;
+}
+
+.card-information{
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-information h2{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #787373;
+}
+
+.card-information span{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.card-information button i{
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+
+.card-information button{
+    background-color: #f05d96;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card-information button:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.catalogo-button-next,
+.catalogo-button-prev{
+    border-radius: 50%;
+    transform: scale(.7);
+    transition: .3s ease;
+    width: 40px;
+    height: 40px;
+}
+
+.catalogo-button-next::after,
+.catalogo-button-prev::after{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #f05d96;
+}
+
+.catalogo-button-next:hover,
+.catalogo-button-prev:hover{
+    transform: scale(.8);
+
+}
+
+/*----------------------
+    POPULARES
+----------------------*/
+
+
+.catalogoSwiperPopulares{
+    width: 100%;
+    padding: 20px 60px 60px;
+}
+
+.catalogoSwiperPopulares .swiper-wrapper{
+    align-items: stretch;
+}
+
+.catalogoSwiperPopulares .swiper-slide{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#cards-catalogo-populares{
+    min-height: 450px;
+    padding: 20px 0;
+}
+
+
+/*----------------------
+    ROMANTICOS
+----------------------*/
+
+.catalogoSwiperRomanticos{
+    width: 100%;
+    padding: 20px 60px 60px;
+}
+
+.catalogoSwiperRomanticos .swiper-wrapper{
+    align-items: stretch;
+}
+
+.catalogoSwiperRomanticos .swiper-slide{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#cards-catalogo-romanticos{
+    min-height: 450px;
+    padding: 20px 0;
+}

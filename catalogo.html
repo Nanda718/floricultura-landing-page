@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css"> 
     <link rel="stylesheet" href="css/catalogo.css">
-
+    <link rel="stylesheet" href="css/cards-catalogo.css">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
@@ -97,9 +97,9 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
 
             <div class="categoria-item">
         <button class="active"> 
-            <i class="fa-solid fa-border-all"></i>
+            <i class="fa-solid fa-fire"></i>
              </button>
-         <span>Todos</span>
+         <span>Popular</span>
          </div>
             
              
@@ -136,62 +136,34 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
      </div>
 </nav>  
 
-    <section id="cards-catalogo">
-    </section>
+<!--CATALOGO - POPULARES-->
+  <div class="swiper catalogoSwiperPopulares">
+    <div class="swiper-wrapper" id="cards-catalogo-populares">
+
+    </div>
+    <div class="swiper-button-prev catalogo-button-prev"></div>
+    <div class="swiper-button-next catalogo-button-next"></div>
+</div>
+
+<!--CATALOGO ROMANTICOS-->
+
+<div class="swiper catalogoSwiperRomanticos">
+    <div class="swiper-wrapper" id="cards-catalogo-romanticos">
+
+    </div>
+    <div class="swiper-button-prev catalogo-button-prev"></div>
+    <div class="swiper-button-next catalogo-button-next"></div>
+</div>
 
 
 
-   
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/scripts.js"></script>
- 
+    <script src="scripts/catalogo-populares.js"></script>
 
-    <!--SCRIPT PRODUTOS-->
-
-    <script>
-        const cardsCatalogo = document.getElementById("cards-catalogo");
-        fetch("data/produtos.json")
-    .then(response => response.json())
-    .then(produtos => {
-
-        produtos.forEach(produto => {
-
-            cardsCatalogo.innerHTML += `
-                <div class="shop-card">
-
-                    <div class="card-img">
-
-                        <img src="${produto.imagem}" alt="${produto.nome}">
-
-                        <div class="card-information">
-
-                            <div class="card-information-texts">
-
-                                <h2>${produto.nome}</h2>
-
-                                <span>R$ ${produto.preco.toFixed(2)}</span>
-
-                            </div>
-
-                            <button>
-
-                                <i class="fa-solid fa-plus"></i>
-
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            `;
-
-        });
-
-    });
-    </script>
 
 </body>
 </html>

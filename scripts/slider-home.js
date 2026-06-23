@@ -50,6 +50,7 @@ fetch("data/slider-home.json")
         new Swiper(".mySwiper", {
 
             loop: true,
+            speed: 1200,
 
             navigation: {
                 nextEl: ".swiper-button-next",
