@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nome": "Buquê Girassóis",
+        "colecao": "Coleção Primavera",
+        "descricao": "Um arranjo vibrante que transmite alegria, energia e luz para qualquer ocasião.",
+        "preco": 129.90,
+        "imagem": "img/buque-girassois.png",
+        "slider": true
+    },
+    {
+        "id": 2,
+        "nome": "Buquê Pink",
+        "colecao": "Coleção Romance",
+        "descricao": "Delicado e sofisticado, perfeito para surpreender alguém especial.",
+        "preco": 149.90,
+        "imagem": "img/buque-rosas.png",
+        "slider": true
+    },
+    {
+        "id": 3,
+        "nome": "Buquê Rosas e Lírios",
+        "colecao": "Elegance Collection",
+        "descricao": "Pureza, elegância e paixão em uma composição atemporal.",
+        "preco": 139.90,
+        "imagem": "img/buque-rosas-lirios.png",
+        "slider": true
+    }
+]

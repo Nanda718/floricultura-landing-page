@@ -9,10 +9,10 @@
     <link rel="icon" type="image/png" href="img/flor-bg-4.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css"> 
-    <link rel="stylesheet" href="catalogo.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css"> 
+    <link rel="stylesheet" href="css/catalogo.css">
 
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -92,41 +92,105 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
     </section>
 
     <section id="catalogo">
-        <nav class="filtro-catalogo">
+    <nav class="filtro-catalogo">
         <div class="categorias-catalogo">
 
-        <a href="#"> <button class="active">Todos</button> </a>
-        <a href="#"><button>Românticos</button></a>
-        <a href="#"><button>Delicados</button></a>
-        <a href="#"><button>Aniversário</button></a>
-        <a href="#"><button>Premium</button></a>
-</div>
-</nav>
+            <div class="categoria-item">
+        <button class="active"> 
+            <i class="fa-solid fa-border-all"></i>
+             </button>
+         <span>Todos</span>
+         </div>
+            
+             
+     <div class="categoria-item">
+        <button>
+            <i class="fa-regular fa-heart"></i>
+            </button>
+            <span>Românticos</span>
+        </div>
+       
+            
+        <div class="categoria-item">
+            <button>
+            <i class="fa-solid fa-gifts"></i> 
+           </button>
+            <span>Presentes</span>
+        </div>
+       
+        
+        <div class="categoria-item">
+            <button>
+            <i class="fa-solid fa-cake-candles"></i> 
+        </button>
+        <span>Aniversários</span>
+    </div>
+       
+        
+        <div class="categoria-item">
+            <button>
+            <i class="fa-regular fa-gem"></i> 
+            </button>
+            <span>Premium</span>
+        </div>
+     </div>
+</nav>  
+
+    <section id="cards-catalogo">
     </section>
 
-    <!--SCRIPT AOS!-->
 
+
+   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-
-        AOS.init({
-            duration: 1200,
-            once: true
-        });
-
-    </script>
-
-    <!--SCRIPT MENU MOBILE-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/scripts.js"></script>
+ 
+
+    <!--SCRIPT PRODUTOS-->
+
     <script>
-         const mobileBtn = document.querySelector(".mobile-btn");
-const mobileMenu = document.querySelector(".mobile-menu");
+        const cardsCatalogo = document.getElementById("cards-catalogo");
+        fetch("data/produtos.json")
+    .then(response => response.json())
+    .then(produtos => {
 
-mobileBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("active");
-});
+        produtos.forEach(produto => {
 
+            cardsCatalogo.innerHTML += `
+                <div class="shop-card">
+
+                    <div class="card-img">
+
+                        <img src="${produto.imagem}" alt="${produto.nome}">
+
+                        <div class="card-information">
+
+                            <div class="card-information-texts">
+
+                                <h2>${produto.nome}</h2>
+
+                                <span>R$ ${produto.preco.toFixed(2)}</span>
+
+                            </div>
+
+                            <button>
+
+                                <i class="fa-solid fa-plus"></i>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            `;
+
+        });
+
+    });
     </script>
 
 </body>
