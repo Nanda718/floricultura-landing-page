@@ -1,92 +1,92 @@
 [
     {
         "id": 1,
-        "nome": "Buquê Rosé",
-        "preco": 189.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 2,
-        "nome": "Jardim Encantado",
+        "nome": "Buquê Gratidão",
         "preco": 159.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
+        "id": 2,
+        "nome": "Buquê Carinho",
+        "preco": 169.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
         "id": 3,
-        "nome": "Aurora Floral",
-        "preco": 199.90,
+        "nome": "Buquê Surpresa",
+        "preco": 179.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 4,
-        "nome": "Doce Harmonia",
+        "nome": "Buquê Aconchego",
         "preco": 149.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 5,
-        "nome": "Pink Elegance",
-        "preco": 219.90,
+        "nome": "Buquê Encanto",
+        "preco": 189.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 6,
-        "nome": "Essência Floral",
-        "preco": 169.90,
+        "nome": "Buquê Momento Especial",
+        "preco": 199.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 7,
-        "nome": "Brisa de Primavera",
+        "nome": "Buquê Doce Presente",
         "preco": 179.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 8,
-        "nome": "Sonho Rosado",
-        "preco": 209.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 9,
-        "nome": "Floral Charme",
+        "nome": "Buquê Encantar",
         "preco": 189.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
+        "id": 9,
+        "nome": "Buquê Carinho Floral",
+        "preco": 169.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
         "id": 10,
-        "nome": "Luz da Manhã",
-        "preco": 159.90,
+        "nome": "Buquê Me Lembrei de Você",
+        "preco": 209.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 11,
-        "nome": "Petalyn Classic",
-        "preco": 229.90,
+        "nome": "Buquê Sorria",
+        "preco": 159.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 12,
-        "nome": "Delicadeza Rosa",
-        "preco": 179.90,
+        "nome": "Buquê Pequenos Gestos",
+        "preco": 189.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 13,
-        "nome": "Alegria Floral",
-        "preco": 149.90,
+        "nome": "Buquê Harmonia Floral",
+        "preco": 179.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 14,
-        "nome": "Bouquet Lumière",
+        "nome": "Buquê Essência do Amor",
         "preco": 199.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 15,
-        "nome": "Coleção Encanto",
-        "preco": 239.90,
+        "nome": "Buquê Presente Perfeito",
+        "preco": 219.90,
         "imagem": "img/buque-card-teste.jpg"
     }
 ]

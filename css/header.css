@@ -123,7 +123,7 @@ ul {
 .mobile-btn{
     display: none;
 
-    font-size: 30px;
+    font-size: 45px;
     color: #d98aa1;
 
     cursor: pointer;
@@ -179,6 +179,7 @@ ul {
     }
 
     #navbar{
+        height: 90px;
         justify-content: center;
         position: relative;
     }
@@ -186,6 +187,7 @@ ul {
     .mobile-btn{
         display: block;
         margin-left: 250px;
+        width: 150px;
     }
 
 
@@ -193,7 +195,7 @@ ul {
         display: block;
         margin-left: 90px;
 
-        width: 90px;
+        width: 120px;
         height: auto;
     }
 
@@ -212,19 +214,24 @@ ul {
     #navbar{
         justify-content: center;
         position: relative;
+        height: 70px;
     }
 
     .mobile-btn{
-        display: block;
-        margin-left: 100px;
-    }
+    display: none;
+
+    font-size: 35px;
+    color: #d98aa1;
+
+    cursor: pointer;
+}
 
 
     .mobile-logo{
         display: block;
         margin-left: 85px;
 
-        width: 90px;
+        width: 50px;
         height: auto;
     }
 

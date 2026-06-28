@@ -1,92 +1,92 @@
 [
     {
         "id": 1,
-        "nome": "Buquê Rosé",
-        "preco": 189.90,
+        "nome": "Buquê Imperial",
+        "preco": 349.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 2,
-        "nome": "Jardim Encantado",
-        "preco": 159.90,
+        "nome": "Buquê Diamond",
+        "preco": 399.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 3,
-        "nome": "Aurora Floral",
-        "preco": 199.90,
+        "nome": "Buquê Signature",
+        "preco": 429.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 4,
-        "nome": "Doce Harmonia",
-        "preco": 149.90,
+        "nome": "Buquê Royal Garden",
+        "preco": 459.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 5,
-        "nome": "Pink Elegance",
-        "preco": 219.90,
+        "nome": "Buquê Luxo Rosé",
+        "preco": 389.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 6,
-        "nome": "Essência Floral",
-        "preco": 169.90,
+        "nome": "Buquê Grand Elegance",
+        "preco": 479.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 7,
-        "nome": "Brisa de Primavera",
-        "preco": 179.90,
+        "nome": "Buquê Prestige",
+        "preco": 419.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 8,
-        "nome": "Sonho Rosado",
-        "preco": 209.90,
+        "nome": "Buquê Magnifique",
+        "preco": 449.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 9,
-        "nome": "Floral Charme",
-        "preco": 189.90,
+        "nome": "Buquê Supreme",
+        "preco": 499.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 10,
-        "nome": "Luz da Manhã",
-        "preco": 159.90,
+        "nome": "Buquê Exuberance",
+        "preco": 469.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 11,
-        "nome": "Petalyn Classic",
-        "preco": 229.90,
+        "nome": "Buquê Gold Edition",
+        "preco": 529.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 12,
-        "nome": "Delicadeza Rosa",
-        "preco": 179.90,
+        "nome": "Buquê Platinum",
+        "preco": 549.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 13,
-        "nome": "Alegria Floral",
-        "preco": 149.90,
+        "nome": "Buquê Fleur Royale",
+        "preco": 489.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 14,
-        "nome": "Bouquet Lumière",
-        "preco": 199.90,
+        "nome": "Buquê Eternal Luxury",
+        "preco": 569.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 15,
-        "nome": "Coleção Encanto",
-        "preco": 239.90,
+        "nome": "Buquê Grand Rosé",
+        "preco": 599.90,
         "imagem": "img/buque-card-teste.jpg"
     }
 ]

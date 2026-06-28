@@ -5,9 +5,11 @@
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
 }
 
@@ -21,6 +23,9 @@
     display: flex;
     justify-content: space-between;
 
+}
+.card-information-texts{
+    width: 180px;
 }
 
 .card-information h2{
@@ -58,8 +63,9 @@
     cursor: pointer;
 }
 
-.catalogo-button-next,
-.catalogo-button-prev{
+
+.populares-prev,
+.populares-next{
     border-radius: 50%;
     transform: scale(.7);
     transition: .3s ease;
@@ -67,15 +73,16 @@
     height: 40px;
 }
 
-.catalogo-button-next::after,
-.catalogo-button-prev::after{
+.populares-prev::after,
+.populares-next::after{
     font-size: 30px !important;
     font-weight: bold;
     color: #f05d96;
 }
 
-.catalogo-button-next:hover,
-.catalogo-button-prev:hover{
+
+.populares-prev:hover,
+.populares-next:hover{
     transform: scale(.8);
 
 }
@@ -128,4 +135,221 @@
 #cards-catalogo-romanticos{
     min-height: 450px;
     padding: 20px 0;
+}
+
+.romanticos-prev,
+.romanticos-next{
+    border-radius: 50%;
+    transform: scale(.7);
+    transition: .3s ease;
+    width: 40px;
+    height: 40px;
+}
+.romanticos-prev::after,
+.romanticos-next::after{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #f05d96;
+}
+
+.romanticos-prev:hover,
+.romanticos-next:hover{
+    transform: scale(.8);
+
+}
+
+/*--------------------------
+        PRESENTES
+--------------------------*/
+
+
+.catalogoSwiperPresentes{
+    width: 100%;
+    padding: 20px 60px 60px;
+}
+
+.catalogoSwiperPresentes .swiper-wrapper{
+    align-items: stretch;
+}
+
+.catalogoSwiperPresentes .swiper-slide{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#cards-catalogo-presentes{
+    min-height: 450px;
+    padding: 20px 0;
+}
+
+.presentes-prev,
+.presentes-next{
+    border-radius: 50%;
+    transform: scale(.7);
+    transition: .3s ease;
+    width: 40px;
+    height: 40px;
+}
+.presentes-prev::after,
+.presentes-next::after{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #f05d96;
+}
+
+.presentes-prev:hover,
+.presentes-next:hover{
+    transform: scale(.8);
+
+}
+
+
+/*-----------------------
+        ANIVERSARIOS
+------------------------*/
+
+.catalogoSwiperAniversarios{
+    width: 100%;
+    padding: 20px 60px 60px;
+}
+
+.catalogoSwiperAniversarios .swiper-wrapper{
+    align-items: stretch;
+}
+
+.catalogoSwiperAniversarios .swiper-slide{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#cards-catalogo-aniversarios{
+    min-height: 450px;
+    padding: 20px 0;
+}
+
+.aniversarios-prev,
+.aniversarios-next{
+    border-radius: 50%;
+    transform: scale(.7);
+    transition: .3s ease;
+    width: 40px;
+    height: 40px;
+}
+.aniversarios-prev::after,
+.aniversarios-next::after{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #f05d96;
+}
+
+.aniversarios-prev:hover,
+.aniversarios-next:hover{
+    transform: scale(.8);
+
+}
+
+/*-------------------------
+        PREMIUM 
+-------------------------*/
+
+.catalogoSwiperPremium{
+    width: 100%;
+    padding: 20px 60px 60px;
+}
+
+.catalogoSwiperPremium .swiper-wrapper{
+    align-items: stretch;
+}
+
+.catalogoSwiperPremium .swiper-slide{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#cards-catalogo-premium{
+    min-height: 450px;
+    padding: 20px 0;
+}
+
+.premium-prev,
+.premium-next{
+    border-radius: 50%;
+    transform: scale(.7);
+    transition: .3s ease;
+    width: 40px;
+    height: 40px;
+}
+.premium-prev::after,
+.premium-next::after{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #f05d96;
+}
+
+.premium-prev:hover,
+.premium-next:hover{
+    transform: scale(.8);
+
+}
+
+/*-------------------------------
+            RESPONSIVIDADE
+--------------------------------*/
+
+@media (max-width:768px){
+    
+.shop-card{
+    background-color: #ffffff;
+    width:100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
+}
+
+.shop-card img{
+    width: 170px;
+
+}
+
+.card-information-texts{
+    width: 150px;
+}
+
+.card-information h2{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #787373;
+}
+
+.card-information span{
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.card-information button i{
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+
+.card-information button{
+    background-color: #f05d96;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 }

@@ -96,66 +96,123 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
         <div class="categorias-catalogo">
 
             <div class="categoria-item">
-        <button class="active"> 
-            <i class="fa-solid fa-fire"></i>
-             </button>
-         <span>Popular</span>
+        <a href="#populares"> <button class="active"> 
+            <i class="fa-regular fa-star"></i>
+            </button> </a>
+         <span>Populares</span>
          </div>
             
              
      <div class="categoria-item">
-        <button>
+       <a href="#romanticos"> <button>
             <i class="fa-regular fa-heart"></i>
-            </button>
+            </button></a>
             <span>Românticos</span>
         </div>
        
             
         <div class="categoria-item">
-            <button>
+            <a href="#presentes"> <button>
             <i class="fa-solid fa-gifts"></i> 
-           </button>
+           </button></a>
             <span>Presentes</span>
         </div>
        
         
         <div class="categoria-item">
-            <button>
+           <a href="#aniversarios"> <button>
             <i class="fa-solid fa-cake-candles"></i> 
-        </button>
+        </button></a>
         <span>Aniversários</span>
     </div>
        
         
         <div class="categoria-item">
-            <button>
+           <a href="#premium"> <button>
             <i class="fa-regular fa-gem"></i> 
-            </button>
+            </button></a>
             <span>Premium</span>
         </div>
      </div>
 </nav>  
 
 <!--CATALOGO - POPULARES-->
+<section id="populares">
+
+    <div class="catalogo-title populares">
+        <h1>Populares</h1>
+    </div>
+
   <div class="swiper catalogoSwiperPopulares">
     <div class="swiper-wrapper" id="cards-catalogo-populares">
 
     </div>
-    <div class="swiper-button-prev catalogo-button-prev"></div>
-    <div class="swiper-button-next catalogo-button-next"></div>
+    <div class="swiper-button-prev populares-prev"></div>
+    <div class="swiper-button-next populares-next"></div>
 </div>
+</section>
 
 <!--CATALOGO ROMANTICOS-->
+<section id="romanticos">
+
+<div class="catalogo-title romanticos">
+        <h1>Românticos</h1>
+    </div>
 
 <div class="swiper catalogoSwiperRomanticos">
     <div class="swiper-wrapper" id="cards-catalogo-romanticos">
 
     </div>
-    <div class="swiper-button-prev catalogo-button-prev"></div>
-    <div class="swiper-button-next catalogo-button-next"></div>
+    <div class="swiper-button-prev romanticos-prev"></div>
+    <div class="swiper-button-next romanticos-next"></div>
 </div>
+</section>
 
+<!--CATALOGO PRESENTES-->
+<section id="presentes">
+<div class="catalogo-title presentes">
+        <h1>Presentes</h1>
+    </div>
 
+<div class="swiper catalogoSwiperPresentes">
+    <div class="swiper-wrapper" id="cards-catalogo-presentes">
+
+    </div>
+    <div class="swiper-button-prev presentes-prev"></div>
+    <div class="swiper-button-next presentes-next"></div>
+</div>
+</section>
+
+<!--CATALOGO ANIVERSARIOS-->
+<section id="aniversarios">
+
+<div class="catalogo-title aniversarios">
+        <h1>Aniversários</h1>
+    </div>
+
+<div class="swiper catalogoSwiperAniversarios">
+    <div class="swiper-wrapper" id="cards-catalogo-aniversarios">
+
+    </div>
+    <div class="swiper-button-prev aniversarios-prev"></div>
+    <div class="swiper-button-next aniversarios-next"></div>
+</div>
+</section>
+
+<!--CATALOGO PREMIUM-->
+<section id="premium">
+<div class="catalogo-title populares">
+        <h1>Premium</h1>
+    </div>
+
+<div class="swiper catalogoSwiperPremium">
+    <div class="swiper-wrapper" id="cards-catalogo-premium">
+
+    </div>
+    <div class="swiper-button-prev premium-prev"></div>
+    <div class="swiper-button-next premium-next"></div>
+</div>
+</section>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -163,6 +220,10 @@ amizade, a gratidão e todos os momentos que merecem ser lembrados com carinho.<
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/catalogo-populares.js"></script>
+    <script src="scripts/catalogo-romanticos.js"></script>
+    <script src="scripts/catalogo-presentes.js"></script>
+    <script src="scripts/catalogo-aniversarios.js"></script>
+    <script src="scripts/catalogo-premium.js"></script>
 
 
 </body>

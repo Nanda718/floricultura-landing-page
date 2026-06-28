@@ -1,24 +1,24 @@
-const cardsRomanticos = document.getElementById("cards-catalogo-romanticos");
+const cardsPresentes = document.getElementById("cards-catalogo-presentes");
 
-fetch("data/romanticos.json")
+fetch("data/presentes.json")
     .then(response => response.json())
-    .then(romanticos => {
+    .then(presentes => {
 
-        romanticos.forEach(romanticos => {
+        presentes.forEach(presentes => {
 
-            cardsRomanticos.innerHTML += `
+            cardsPresentes.innerHTML += `
                 <div class="swiper-slide">
 
                     <div class="shop-card">
 
                         <div class="card-img">
-                            <img src="${romanticos.imagem}" alt="${romanticos.nome}">
+                            <img src="${presentes.imagem}" alt="${presentes.nome}">
 
                             <div class="card-information">
 
                                 <div class="card-information-texts">
-                                    <h2>${romanticos.nome}</h2>
-                                    <span>R$ ${romanticos.preco.toFixed(2).replace(".", ",")}</span>
+                                    <h2>${presentes.nome}</h2>
+                                    <span>R$ ${presentes.preco.toFixed(2).replace(".", ",")}</span>
                                 </div>
 
                                 <button>
@@ -37,15 +37,15 @@ fetch("data/romanticos.json")
         });
 
        
-        new Swiper(".catalogoSwiperRomanticos", {
+        new Swiper(".catalogoSwiperPresentes", {
             speed:1000,
 
             slidesPerView: 4,
             spaceBetween:"-50",
 
             navigation: {
-                nextEl: ".romanticos-next",
-                prevEl: ".romanticos-prev"
+                nextEl: ".presentes-next",
+                prevEl: ".presentes-prev"
             },
 
             breakpoints: {

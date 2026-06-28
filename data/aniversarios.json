@@ -1,92 +1,92 @@
 [
     {
         "id": 1,
-        "nome": "Buquê Rosé",
-        "preco": 189.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 2,
-        "nome": "Jardim Encantado",
+        "nome": "Buquê Celebração",
         "preco": 159.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
+        "id": 2,
+        "nome": "Buquê Festa Floral",
+        "preco": 169.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
         "id": 3,
-        "nome": "Aurora Floral",
-        "preco": 199.90,
+        "nome": "Buquê Happy Day",
+        "preco": 179.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 4,
-        "nome": "Doce Harmonia",
+        "nome": "Buquê Alegria",
         "preco": 149.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
         "id": 5,
-        "nome": "Pink Elegance",
-        "preco": 219.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 6,
-        "nome": "Essência Floral",
-        "preco": 169.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 7,
-        "nome": "Brisa de Primavera",
-        "preco": 179.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 8,
-        "nome": "Sonho Rosado",
-        "preco": 209.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 9,
-        "nome": "Floral Charme",
+        "nome": "Buquê Parabéns",
         "preco": 189.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
-        "id": 10,
-        "nome": "Luz da Manhã",
-        "preco": 159.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 11,
-        "nome": "Petalyn Classic",
-        "preco": 229.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 12,
-        "nome": "Delicadeza Rosa",
-        "preco": 179.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 13,
-        "nome": "Alegria Floral",
-        "preco": 149.90,
-        "imagem": "img/buque-card-teste.jpg"
-    },
-    {
-        "id": 14,
-        "nome": "Bouquet Lumière",
+        "id": 6,
+        "nome": "Buquê Feliz Aniversário",
         "preco": 199.90,
         "imagem": "img/buque-card-teste.jpg"
     },
     {
+        "id": 7,
+        "nome": "Buquê Girassol Feliz",
+        "preco": 169.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Buquê Flores da Vida",
+        "preco": 189.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Buquê Aurora Feliz",
+        "preco": 179.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Buquê Sorriso",
+        "preco": 149.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 11,
+        "nome": "Buquê Cores da Festa",
+        "preco": 199.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 12,
+        "nome": "Buquê Felicidade",
+        "preco": 169.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 13,
+        "nome": "Buquê Luz do Dia",
+        "preco": 179.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 14,
+        "nome": "Buquê Encanto Colorido",
+        "preco": 189.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
         "id": 15,
-        "nome": "Coleção Encanto",
-        "preco": 239.90,
+        "nome": "Buquê Festa das Flores",
+        "preco": 209.90,
         "imagem": "img/buque-card-teste.jpg"
     }
 ]

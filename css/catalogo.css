@@ -131,7 +131,8 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 100px;
     font-family: 'Poppins';
     
 }
@@ -145,7 +146,6 @@
     font-size: 20px;
     font-family: 'Poppins';
     font-weight: 200;
-    color: #353132;
     box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
   
 }
@@ -159,12 +159,22 @@
 
 .categoria-item span{
     font-size: 15px;
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Poppins';
+    color: rgb(149, 149, 149) ;
 }
 
 .categoria-item i{
     font-size: 30px;
     color: #ff79ac;
+}
+
+.catalogo-title{
+    padding: 30px 80px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Tangerine';
+    color: #94898d;
 }
 
 .categorias-catalogo{
@@ -200,178 +210,183 @@
 
 /*RESPONSIVIDADE*/
 
-@media screen and (max-width: 1024px){
-    .catalogo-texts{
-    max-width: 550px;
-    height: calc(100vh -70px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 2;
-   
-}
+/* =====================================================
+   TABLETS
+===================================================== */
 
-.catalogo-texts p{
+@media (max-width:1024px){
+
+   #hero-catalogo{
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    width: 480px;
-    line-height: 1.8;
-    color: #504b4b;
-    margin-bottom: 35px;
-}
-
-.catalogo-texts h2{
-    font-size: 120px;
-    color: #f05d96;
-}
-.imagem{
-    flex: 1;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: blur(2px);
-    opacity: 0.3;
-}
-
-.imagem img{
-    position: absolute;
-    width: 800px;
-    filter: drop-shadow(0 2px 20px rgba(0, 0, 0, 0.432));
-    animation: float 4s ease-in-out infinite;
-
-}
-
-.btn-hero{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 80px;
-    border: none;
-    border-radius: 50px;
-    background: #f390b3;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    cursor: pointer;
-    transition: .3s ease;
-    font-size: 20px;
-}
-
-.btn-hero:hover{
-    background: #f05d96;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(238, 141, 178, 0.849);
-}
-}
-
-
-@media screen and (max-width: 480px){
-
-    #hero-catalogo{
-        padding: 30px;
-        height:calc(100vh -70px);
-        display: flex;
-        flex-direction: column-reverse;
-        position: relative;
-    }
-    .catalogo-texts{
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 100px 30px;
+    min-height: calc(100vh - 70px);
     z-index: 2;
-   
 }
 
-.catalogo-texts p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    width: 250px;
-    line-height: 1.8;
-    color: #504b4b;
-    margin-bottom: 35px;
+    .catalogo-texts{
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+
+
 }
 
-.catalogo-texts h2{
-    margin-top: -30px;
-    font-size: 80px;
-    color: #f05d96;
+    .catalogo-texts h2{
+        font-size:100px;
+        margin-bottom:20px;
+    }
+
+    .catalogo-texts p{
+        width:70%;
+        font-size:24px;
+    }
+
+    .btn-hero{
+        width:300px;
+        height:75px;
+        font-size:30px;
+    }
+
+    .imagem{
+
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+
+}
+
+    .imagem img{
+
+    position:absolute;
+    left:50%;
+    transform:translateY(-50%);
+    width:100%;
+    filter:blur(2px);
+    opacity: 0.8!important;
+    }
+
+    .small-circle.six{
+        width:350px;
+        height:350px;
+    }
+
+    .categorias-catalogo{
+        gap:45px;
+        margin-top:150px;
+    }
+    .categorias-catalogo i{
+        font-size: 50px;
+    }
+
+    .categorias-catalogo button{
+        width: 100px;
+        height: 100px;
+    }
+
+    .catalogo-title{
+        padding:30px 40px;
+        font-size:42px;
+    }
 }
 
 
-.imagem{
-    flex: 1;
+/*   CELULARES */
+
+@media (max-width:768px) {
+
+     #hero-catalogo{
+    position: relative;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: blur(2px);
-    opacity: 0.3;
+    padding: 50px 30px;
+    min-height: calc(100vh - 70px);
+    z-index: 2;
 }
 
-.imagem img{
-    margin-left: 400px;
-    margin-top: 500px;
-    position: absolute;
-    width: 500px;
-    filter: drop-shadow(0 2px 20px rgba(0, 0, 0, 0.432));
-    animation: float 4s ease-in-out infinite;
-
-}
-
-.btn-hero{
-    display: inline-flex;
+.filtro-catalogo{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    border: none;
-    border-radius: 40px;
-    background: #f390b3;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    cursor: pointer;
-    transition: .3s ease;
+    width: 100%;
+  
 }
 
-.btn-hero:hover{
-    background: #f05d96;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(238, 141, 178, 0.849);
+    .catalogo-texts{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+
+
 }
 
-.circle{
-    position: absolute;
-    border-radius: 50%;
-    background-color: rgb(243, 161, 183);
-    filter: blur(70px);
-    z-index: 0;
-    left: 170px;
+    .catalogo-texts h2{
+        font-size:60px;
+        margin-bottom:20px;
+    }
+
+    .catalogo-texts p{
+        width:80%;
+        font-size:15px;
+    }
+
+    .btn-hero{
+        width:150px;
+        height:45px;
+        font-size:15px;
+    }
+
+    .imagem{
+
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+
 }
-.small-circle.four{
-    width: 120px;
-    height: 120px;
 
-    top: 15%;
-    left: 10%;
-}
+    .imagem img{
 
-.small-circle.five{
-    width: 100px;
-    height: 100px;
+    position:absolute;
+    left:30%;
+    transform:translateY(-50%);
+    width:500px;
+    filter:blur(3px);
+    opacity: 0.5!important;
+    }
 
-    bottom: 40%;
-    left: 5%;
-}
+    .small-circle.six{
+        width:350px;
+        height:350px;
+    }
 
-.small-circle.six{
-    width: 500px;
-    height: 500px;
+    .categorias-catalogo{
 
-    top: 15%;
-    right: 5%;
-    
-}
+        margin-top:80px;
+    }
+    .categorias-catalogo i{
+        font-size: 30px;
+    }
+
+    .categorias-catalogo button{
+        width: 50px;
+        height: 50px;
+    }
+
+     .categorias-catalogo span{
+        font-size: 13px;
+        letter-spacing: -1px;
+        font-weight: 300;
+     }
+
+    .catalogo-title{
+        padding:40px 20px;
+        font-size:42px;
+
+    }
 }

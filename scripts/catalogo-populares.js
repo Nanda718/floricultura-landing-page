@@ -1,4 +1,4 @@
-const cardsCatalogo = document.getElementById("cards-catalogo-populares");
+const cardsPopulares = document.getElementById("cards-catalogo-populares");
 
 fetch("data/populares.json")
     .then(response => response.json())
@@ -6,7 +6,7 @@ fetch("data/populares.json")
 
         produtos.forEach(populares => {
 
-            cardsCatalogo.innerHTML += `
+            cardsPopulares.innerHTML += `
                 <div class="swiper-slide">
 
                     <div class="shop-card">
@@ -41,11 +41,11 @@ fetch("data/populares.json")
             speed:1000,
 
             slidesPerView: 4,
-            spaceBetween: "70",
+            spaceBetween:"-50",
 
             navigation: {
-                nextEl: ".catalogo-button-next",
-                prevEl: ".catalogo-button-prev"
+                nextEl: ".populares-next",
+                prevEl: ".populares-prev"
             },
 
             breakpoints: {

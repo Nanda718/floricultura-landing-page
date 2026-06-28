@@ -1,32 +1,92 @@
 [
     {
-    "id":1,
-    "nome":"Buquê Rosé",
-    "preco":189.90,
-    "imagem":"img/buque-card-teste.jpg"
-},
+        "id": 1,
+        "nome": "Buquê Amor Eterno",
+        "preco": 219.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
     {
-    "id":1,
-    "nome":"Buquê Rosé",
-    "preco":189.90,
-    "imagem":"img/buque-card-teste.jpg"
-},
+        "id": 2,
+        "nome": "Buquê Paixão",
+        "preco": 199.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
     {
-    "id":1,
-    "nome":"Buquê Rosé",
-    "preco":189.90,
-    "imagem":"img/buque-card-teste.jpg"
-},
+        "id": 3,
+        "nome": "Buquê Primeiro Beijo",
+        "preco": 189.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
     {
-    "id":1,
-    "nome":"Buquê Rosé",
-    "preco":189.90,
-    "imagem":"img/buque-card-teste.jpg"
-},
+        "id": 4,
+        "nome": "Buquê Romance",
+        "preco": 209.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
     {
-    "id":1,
-    "nome":"Buquê Rosé",
-    "preco":189.90,
-    "imagem":"img/buque-card-teste.jpg"
-}
+        "id": 5,
+        "nome": "Buquê Sweet Love",
+        "preco": 179.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 6,
+        "nome": "Buquê Destino",
+        "preco": 199.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 7,
+        "nome": "Buquê Coração Rosa",
+        "preco": 189.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Buquê Encanto Romântico",
+        "preco": 219.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Buquê In Love",
+        "preco": 199.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Buquê Rosas do Amor",
+        "preco": 239.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 11,
+        "nome": "Buquê La Vie En Rose",
+        "preco": 229.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 12,
+        "nome": "Buquê Encanto Apaixonado",
+        "preco": 189.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 13,
+        "nome": "Buquê Forever",
+        "preco": 249.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 14,
+        "nome": "Buquê Love Story",
+        "preco": 209.90,
+        "imagem": "img/buque-card-teste.jpg"
+    },
+    {
+        "id": 15,
+        "nome": "Buquê Apaixonar",
+        "preco": 199.90,
+        "imagem": "img/buque-card-teste.jpg"
+    }
 ]
