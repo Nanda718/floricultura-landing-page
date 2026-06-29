@@ -1,20 +1,22 @@
-
-
 .shop-card{
     background-color: #ffffff;
-    width:100%;
+    width: 100%;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 15px auto; 
     box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .shop-card img{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 .card-information{
@@ -22,44 +24,49 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    width: 100%;
 }
+
 .card-information-texts{
-    width: 180px;
+    flex: 1;
+    margin-right: 10px;
 }
 
 .card-information h2{
-    font-size: 20px;
-    font-family: 'Poppins';
+    font-size: 1.1rem; 
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #787373;
+    margin: 0 0 5px 0;
 }
 
 .card-information span{
-    font-size: 20px;
-    font-family: 'Poppins';
-}
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
 
-.card-information button i{
-    font-size: 30px;
-    color: #ffffff;
-    
 }
 
 .card-information button{
     background-color: #f05d96;
     border: none;
     border-radius: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.card-information button i{
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .card-information button:hover{
     transform: scale(1.08);
-    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -80,21 +87,19 @@
     color: #f05d96;
 }
 
-
 .populares-prev:hover,
 .populares-next:hover{
     transform: scale(.8);
-
 }
 
 /*----------------------
     POPULARES
 ----------------------*/
 
-
 .catalogoSwiperPopulares{
     width: 100%;
     padding: 20px 60px 60px;
+    box-sizing: border-box;
 }
 
 .catalogoSwiperPopulares .swiper-wrapper{
@@ -120,6 +125,7 @@
 .catalogoSwiperRomanticos{
     width: 100%;
     padding: 20px 60px 60px;
+    box-sizing: border-box;
 }
 
 .catalogoSwiperRomanticos .swiper-wrapper{
@@ -155,17 +161,16 @@
 .romanticos-prev:hover,
 .romanticos-next:hover{
     transform: scale(.8);
-
 }
 
 /*--------------------------
         PRESENTES
 --------------------------*/
 
-
 .catalogoSwiperPresentes{
     width: 100%;
     padding: 20px 60px 60px;
+    box-sizing: border-box;
 }
 
 .catalogoSwiperPresentes .swiper-wrapper{
@@ -201,7 +206,6 @@
 .presentes-prev:hover,
 .presentes-next:hover{
     transform: scale(.8);
-
 }
 
 
@@ -212,6 +216,7 @@
 .catalogoSwiperAniversarios{
     width: 100%;
     padding: 20px 60px 60px;
+    box-sizing: border-box;
 }
 
 .catalogoSwiperAniversarios .swiper-wrapper{
@@ -247,7 +252,6 @@
 .aniversarios-prev:hover,
 .aniversarios-next:hover{
     transform: scale(.8);
-
 }
 
 /*-------------------------
@@ -257,6 +261,7 @@
 .catalogoSwiperPremium{
     width: 100%;
     padding: 20px 60px 60px;
+    box-sizing: border-box;
 }
 
 .catalogoSwiperPremium .swiper-wrapper{
@@ -292,64 +297,64 @@
 .premium-prev:hover,
 .premium-next:hover{
     transform: scale(.8);
-
 }
 
 /*-------------------------------
-            RESPONSIVIDADE
+        RESPONSIVIDADE
 --------------------------------*/
 
 @media (max-width:768px){
-    
-.shop-card{
-    background-color: #ffffff;
-    width:100%;
-    height: 420px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    box-shadow: 0 2px 15px rgba(110, 107, 107, 0.5);
+    .shop-card{
+        max-width: 290px;
+        padding: 15px;
+    }
+
+    .shop-card img{
+        max-width: 200px;
+    }
+
+    .card-information h2{
+        font-size: 1.1rem;
+    }
+
+    .card-information span{
+        font-size: 1.1rem;
+    }
+
+    .catalogoSwiperPopulares, .catalogoSwiperRomanticos, 
+    .catalogoSwiperPresentes, .catalogoSwiperAniversarios, .catalogoSwiperPremium {
+        padding: 20px 30px 40px; /* Reduz espaçamento do Swiper nas laterais */
+    }
 }
 
-.shop-card img{
-    width: 170px;
+@media (max-width:480px){
+    .shop-card{
+        max-width: 260px;
+        padding: 12px;
+    }
 
-}
+    .shop-card img{
+        max-width: 150px;
+    }
 
-.card-information-texts{
-    width: 150px;
-}
+    .card-information h2{
+        font-size: 1rem;
+    }
 
-.card-information h2{
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 300;
-    color: #787373;
-}
+    .card-information span{
+        font-size: 1rem;
+    }
 
-.card-information span{
-    font-size: 15px;
-    font-family: 'Poppins';
-}
+    .populares-prev, .populares-next,
+    .romanticos-prev, .romanticos-next,
+    .presentes-prev, .presentes-next,
+    .aniversarios-prev, .aniversarios-next,
+    .premium-prev, .premium-next {
+        display: none; 
+    }
 
-.card-information button i{
-    font-size: 30px;
-    color: #ffffff;
-    
-}
-
-.card-information button{
-    background-color: #f05d96;
-    border: none;
-    border-radius: 10px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
+    .catalogoSwiperPopulares, .catalogoSwiperRomanticos, 
+    .catalogoSwiperPresentes, .catalogoSwiperAniversarios, .catalogoSwiperPremium {
+        padding: 20px 10px 40px;
+    }
 }
